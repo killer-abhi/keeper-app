@@ -1,0 +1,14 @@
+.header{
+    height: 4rem;
+    background-color: rgb(234, 113, 20);
+}
+.centered{
+    display: flex;
+    align-items: center;
+}
+#mainTitle{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-left: 2rem;
+    font-weight: 700;
+}
