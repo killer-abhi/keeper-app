@@ -1,7 +1,8 @@
 import React from "react";
 
 import './css/note.css';
-
+import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
+import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 function Note(props){
     function handleClick(){
         props.onDelete(props.id);
@@ -14,9 +15,11 @@ function Note(props){
             <div id="note-content">
                 {props.content}
             </div>
-            <button onClick={handleClick}>DELETE</button>
+            <button onClick={handleClick}>
+                {/* <DeleteForeverIcon /> */}
+                <DeleteSweepIcon/>
+            </button>
         </div>
     )
 }
-
 export default Note;

@@ -1,10 +1,15 @@
 import React, { useState } from 'react';
+
+//Components
+
 import Header from './components/Header'; 
 import Footer from './components/Footer'; 
 import Note from './components/Note'; 
-import './App.css';
-import Notes from './components/notes';
 import AddNote from "./components/AddNote";
+
+// css files
+
+import './App.css';
 
 
 function App(){
